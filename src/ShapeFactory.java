@@ -9,6 +9,13 @@ public class ShapeFactory extends BaseShapeFactory {
             case "triangle":
                 shape = new Triangle();
                 break;
+                
+            //Noor Added *********
+            case "circle":
+                shape = new Circle();
+                break;
+            //***********/
+                
             default: throw new IllegalArgumentException("Shape not available.");
         }
 

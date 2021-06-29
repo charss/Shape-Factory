@@ -15,7 +15,11 @@ public class ShapeFactory extends BaseShapeFactory {
                 shape = new Circle();
                 break;
             //***********/
-                
+            
+            // CAL
+            case "square":
+                shape = new Square();
+                break;
             default: throw new IllegalArgumentException("Shape not available.");
         }
 

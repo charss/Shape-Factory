@@ -6,5 +6,9 @@ public class App {
         
         //NOOR ADDED
         Shape circle = shapeFactory.createShape("circle");
+        
+        // CAL
+        
+        Shape square = shapeFactory.createShape("square");
     }
 }

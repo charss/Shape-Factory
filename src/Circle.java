@@ -12,6 +12,6 @@ public class Circle extends Shape {
     @Override
     public void getArea() {
         System.out.print("The area of the Circle is: ");
-        System.out.println(this.radius * 3.14);
+        System.out.println(this.radius * this.radius * 3.14);
     }
 }

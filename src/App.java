@@ -3,5 +3,8 @@ public class App {
         BaseShapeFactory shapeFactory = new ShapeFactory();
         Shape rectangle = shapeFactory.createShape("rectangle");
         Shape triangle = shapeFactory.createShape("triangle");
+        
+        //NOOR ADDED
+        Shape circle = shapeFactory.createShape("circle");
     }
 }
